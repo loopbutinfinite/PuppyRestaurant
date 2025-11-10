@@ -3,11 +3,6 @@
     src: url("../assets/fonts/Montauk-Regular.otf");
 }
 
-@font-face {
-    font-family: Montauk-Regular;
-    src: url("../assets/fonts/Montauk-Regular.otf");
-}
-
 body {
   background-image: url("../assets/bgtexture.jpg");
   background-repeat: repeat;
@@ -30,7 +25,6 @@ p {
 }
 
 .nav-link {
-<<<<<<< HEAD
     color: #5F002B !important;
 }
 .backgroundWhite {
@@ -94,11 +88,6 @@ p {
         font-size: 30px;
     }
 }
-=======
-            color: #5F002B !important; 
-            font-weight: bold;
-            margin-left: 1.5rem;
-        }
 
 
 
