@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>Muzzles Restaurant</title>
   <link rel="stylesheet" href="./styles/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -13,7 +13,7 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="./index.html">
         <img src="./assets/MuzzlesLogo.png" alt="Muzzles Logo"> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,9 +21,6 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">Home</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="./pages/About.html">About</a>
           </li>
@@ -41,39 +38,61 @@
     </nav>
   </header>
 
-  <div class="row">
-    <div class="col-md-6 d-flex align-items-center justify-content-center">
-      <div class="row">
-        <div class="col-12 food-item">
-          <img src="./assets/homeSingle.jpg" alt="Sandwich and Fries">
-        </div>
+  <div class="container-fluid my-4">
+    <section class="row">
+      <div class="col-12 px-0">
+        <img src="./assets/homeHero.jpg" class="img-fluid w-100" alt="Restaurant outdoor seating">
       </div>
-    </div>
-    <div class="col-md-6">
-      <h2 class="section-title">Muzzles Sandwiches & Grill</h2>
-      <p class="section-description">
-        Welcome to Muzzles, where every bite is a delightful experience! We pride ourselves on crafting the most
-        delicious sandwiches and grilled specialties, using only the freshest ingredients. Our cozy ambiance and
-        friendly staff ensure a memorable dining experience for you and your loved ones. Come and savor the unique
-        flavors that set us apart!
-        <br><br>
-        From classic comfort food to innovative new creations, our menu is designed to tantalize your taste buds.
-        Whether you're in the mood for a hearty sandwich, a juicy burger, or a light salad, Muzzles has something for
-        everyone.
-      </p>
-      <div class="row">
-        <div class="col-6 food-item">
-          <img src="./assets/HomeImage.jpg" alt="Hotdog">
-        </div>
-
-      </div>
-    </div>
+    </section>
   </div>
 
+  <div class="container page-content shadow-sm my-4">
+    <main>
+      <hr class="my-4">
+      <div class="row">
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+          <div class="row">
+            <div class="col-12 food-item">
+              <img src="./assets/homeSingle.jpg" class="img-fluid" alt="Sandwich and Fries">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
 
+          <div class="text-content-box">
+            <h2 class="section-title">Muzzles Sandwiches & Grill</h2>
+            <p class="section-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-12 food-item">
+              <img src="./assets/HomeImage.jpg" class="img-fluid" alt="Panini, dog, and burgers">
+            </div>
+          </div>
 
+        </div>
+      </div>
+    </main>
 
+    <hr>
 
+    <footer class="row pt-3 pb-2 footer-text">
+      <div class="col-md-6">
+        <p class="mb-1">187 Mutt Street, Rottweiler, CA 12345</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <img src="./assets/CompanyLogo.png" alt="company logo" class="me-2" style="height: 40px;">
+        <p class="mb-0 text-md-end">Copyright © Muzzles Restaurant</p>
+      </div>
+    </footer>
+
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
