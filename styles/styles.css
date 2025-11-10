@@ -1,5 +1,22 @@
 body {
-    background-image: url("/assets/bgtexture.jpg")
+  background-image: url("../assets/bgtexture.jpg");
+  background-repeat: repeat;
+}
+p {
+  color: #5f002b;
+}
+
+.text-content-box {
+  background-color: #ffffff;
+  color: #5f002b;
+  padding: 30px;
+}
+
+.navbar .nav-link {
+  color: #5f002b !important; 
+  font-weight: bold;
+  font-family: serif; 
+  margin-left: 10px;
 }
 .nav-link {
             color: #5F002B !important; 
