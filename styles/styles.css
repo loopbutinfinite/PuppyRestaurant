@@ -1,3 +1,8 @@
 body {
     background-image: url("/assets/bgtexture.jpg")
 }
+.nav-link {
+            color: #5F002B !important; 
+            font-weight: bold;
+            margin-left: 1.5rem;
+        }
