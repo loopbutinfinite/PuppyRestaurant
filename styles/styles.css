@@ -88,3 +88,13 @@ p {
         font-size: 30px;
     }
 }
+.pageBar{
+     width: 1400px;            
+        height: 50px;             
+        background-color: white;
+        margin: 20px auto;         
+        display: flex;             
+        justify-content: center;   
+        align-items: center;
+              
+}
