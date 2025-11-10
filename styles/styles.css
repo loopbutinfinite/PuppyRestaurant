@@ -507,3 +507,13 @@ p {
     }
 }
 >>>>>>> 7fd87e6 (made changes to the about.html to reflect the prototype and added custom css classes for styling and to overwrite BootStrap CSS presets.)
+.pageBar{
+     width: 1400px;            
+        height: 50px;             
+        background-color: white;
+        margin: 20px auto;         
+        display: flex;             
+        justify-content: center;   
+        align-items: center;
+              
+}
