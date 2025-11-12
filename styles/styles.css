@@ -55,3 +55,21 @@ p, h2 {
 .photo-item img {
   border: 5px solid #ffffff; 
 }
+.pageBar{
+     width: 1400px;            
+        height: 50px;             
+        background-color: rgb(255, 255, 255);
+        margin: 50px auto;         
+        display: flex;             
+        justify-content: center;   
+        align-items: center;
+        font-size: 30px;
+    font-weight:bold
+              
+}
+.header-img {
+    width: 81%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
