@@ -23,6 +23,8 @@ p, h2 {
   font-family: serif; 
   margin-left: 10px;
 }
+
+/* Navbar */
 .nav-link {
     color: #5F002B !important;
 }
@@ -336,11 +338,13 @@ p, h2 {
     font-weight:bold
               
 }
+
+/* Hero Image */
 .header-img {
-    width: 81%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+  width: 81%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
   .photo-grid {
@@ -352,3 +356,89 @@ p, h2 {
         font-size: 30px;
     }
 }
+
+/* ------------------- */
+/* RESPONSIVE SECTION  */
+/* ------------------- */
+
+/* Tablet (≤768px) */
+@media (max-width: 768px) {
+  .pageBar {
+    width: 90%;
+    height: 45px;
+    font-size: 24px;
+    margin: 30px auto;
+  }
+
+  .header-img {
+    width: 100%;
+  }
+
+  .catering-section .text-box {
+    padding: 1.5rem;
+  }
+
+  .navbar-brand img {
+    width: 120px;
+    height: auto;
+  }
+
+  .nav-link {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  footer img {
+    height: 35px;
+  }
+}
+
+/* Mobile (≤576px) */
+@media (max-width: 576px) {
+  .pageBar {
+    width: 95%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .header-img {
+    width: 100%;
+  }
+
+  .catering-section .row {
+    flex-direction: column;
+  }
+
+  .catering-section img {
+    margin-bottom: 20px;
+  }
+
+  .catering-section .text-box {
+    padding: 1rem;
+    font-size: 15px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer .row {
+    flex-direction: column;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
+
+
+
+
+.fugaz-one-regular {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
