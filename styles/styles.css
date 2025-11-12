@@ -143,101 +143,6 @@ p, h2 {
         font-size: 30px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .pageBar{
      width: 1400px;            
         height: 50px;             
@@ -247,8 +152,7 @@ p, h2 {
         justify-content: center;   
         align-items: center;
         font-size: 30px;
-    font-weight:bold
-              
+    font-weight:bold     
 }
 .header-img {
     width: 90%;
@@ -316,116 +220,6 @@ p, h2 {
     font-style: normal;
     font-size: 20px !important;
 }
-@media (max-width: 425px){
-    .mobileLHeaderFont {
-        font-size: 30px;
-    }
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-            color: #5F002B !important; 
-            font-weight: bold;
-            margin-left: 1.5rem;
-        }
-=======
->>>>>>> 1e212cf (gavin changes)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .pageBar{
      width: 1400px;            
@@ -436,8 +230,7 @@ p, h2 {
         justify-content: center;   
         align-items: center;
         font-size: 30px;
-    font-weight:bold
-              
+    font-weight:bold       
 }
 .header-img {
     width: 90%;
@@ -445,7 +238,6 @@ p, h2 {
     display: block;
     margin: 0 auto;
 }
-
 .nav-link {
     color: #5F002B !important;
 }
@@ -505,15 +297,6 @@ p, h2 {
     font-style: normal;
     font-size: 20px !important;
 }
-@media (max-width: 425px){
-    .mobileLHeaderFont {
-        font-size: 30px;
-    }
-}
->>>>>>> 7fd87e6 (made changes to the about.html to reflect the prototype and added custom css classes for styling and to overwrite BootStrap CSS presets.)
-=======
-        
->>>>>>> 1e212cf (gavin changes)
 .pageBar{
      width: 1400px;            
         height: 50px;             
@@ -532,37 +315,17 @@ p, h2 {
     display: block;
     margin: 0 auto;
 }
-
-
-
-
-
-
-
-
 .title-box {
   background-color: #ffffff; 
   padding: 1rem;
   text-align: center;
   
 }
-
 .photo-grid {
   display: grid;
-  
-  
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem; 
 }
-
-
-@media (min-width: 768px) {
-  .photo-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-
 .photo-item img {
   border: 5px solid #ffffff; 
 }
@@ -583,4 +346,19 @@ p, h2 {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .photo-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 425px){
+    .mobileLHeaderFont {
+        font-size: 30px;
+    }
+}
+@media (max-width: 425px){
+    .mobileLHeaderFont {
+        font-size: 30px;
+    }
 }
