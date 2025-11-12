@@ -28,28 +28,14 @@ p, h2 {
 .photo-grid {
   display: grid;
   
-  /* This is the magic:
-    - On mobile, create 2 columns (matches "col-6")
-    - The "gap" property handles both horizontal and vertical spacing
-  */
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem; /* This replaces the old margin-bottom */
+  gap: 1.5rem; 
 }
 
-/* This is a media query. 
-  It means "on screens 768px wide or larger" (the "md" breakpoint)
-*/
 @media (min-width: 768px) {
   .photo-grid {
-    /* Switch to 4 columns on desktop (matches "col-md-3") */
     grid-template-columns: repeat(4, 1fr);
   }
-}
-/* Styles the container for each photo */
-.photo-item {
-  /* We removed margin-bottom because the "gap"
-    property on .photo-grid now handles all spacing.
-  */
 }
 
 .photo-item img {
