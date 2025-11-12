@@ -1,35 +1,110 @@
 body {
-    background-image: url("/assets/bgtexture.jpg")
+  background-image: url("/assets/bgtexture.jpg");
+  background-size: cover;
+  background-repeat: repeat;
 }
+
+/* Navbar */
 .nav-link {
-            color: #5F002B !important; 
-            font-weight: bold;
-            margin-left: 1.5rem;
-        }
-
-
-.pageBar{
-     width: 1400px;            
-        height: 50px;             
-        background-color: rgb(255, 255, 255);
-        margin: 50px auto;         
-        display: flex;             
-        justify-content: center;   
-        align-items: center;
-        font-size: 30px;
-    font-weight:bold
-              
+  color: #5F002B !important;
+  font-weight: bold;
+  margin-left: 1.5rem;
 }
+
+/* Page Bar */
+.pageBar {
+  width: 1400px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Hero Image */
 .header-img {
-    width: 81%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+  width: 81%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
+/* ------------------- */
+/* RESPONSIVE SECTION  */
+/* ------------------- */
 
+/* Tablet (≤768px) */
+@media (max-width: 768px) {
+  .pageBar {
+    width: 90%;
+    height: 45px;
+    font-size: 24px;
+    margin: 30px auto;
+  }
 
+  .header-img {
+    width: 100%;
+  }
 
+  .catering-section .text-box {
+    padding: 1.5rem;
+  }
 
+  .navbar-brand img {
+    width: 120px;
+    height: auto;
+  }
 
+  .nav-link {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  footer img {
+    height: 35px;
+  }
+}
+
+/* Mobile (≤576px) */
+@media (max-width: 576px) {
+  .pageBar {
+    width: 95%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .header-img {
+    width: 100%;
+  }
+
+  .catering-section .row {
+    flex-direction: column;
+  }
+
+  .catering-section img {
+    margin-bottom: 20px;
+  }
+
+  .catering-section .text-box {
+    padding: 1rem;
+    font-size: 15px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer .row {
+    flex-direction: column;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
 
