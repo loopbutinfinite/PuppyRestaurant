@@ -150,8 +150,8 @@ font-family: "Fugaz One", sans-serif;
     font-style: normal;
     font-size: 30px;
 }
-.pageBar{
-     width: 1400px;            
+/* .pageBar{
+     width: 14px;            
         height: 50px;             
         background-color: rgb(255, 255, 255);
         margin: 50px auto;         
@@ -160,7 +160,7 @@ font-family: "Fugaz One", sans-serif;
         align-items: center;
         font-size: 30px;
     font-weight:bold     
-}
+} */
 .header-img {
     width: 90%;
     height: auto;
@@ -229,7 +229,7 @@ font-family: "Fugaz One", sans-serif;
 }
 
 .pageBar{
-     width: 1400px;            
+     width: 1320px;            
         height: 50px;             
         background-color: rgb(255, 255, 255);
         margin: 50px auto;         
@@ -304,7 +304,7 @@ font-family: "Fugaz One", sans-serif;
     font-style: normal;
     font-size: 20px !important;
 }
-.pageBar{
+/* .pageBar{
      width: 1400px;            
         height: 50px;             
         background-color: rgb(255, 255, 255);
@@ -313,9 +313,9 @@ font-family: "Fugaz One", sans-serif;
         justify-content: center;   
         align-items: center;
         font-size: 30px;
-    font-weight:bold
+    font-weight:bold */
               
-}
+
 .header-img {
     width: 90%;
     height: auto;
@@ -343,7 +343,7 @@ font-family: "Fugaz One", sans-serif;
 .photo-item img {
   border: 5px solid #ffffff; 
 }
-.pageBar{
+/* .pageBar{
      width: 1400px;            
         height: 50px;             
         background-color: rgb(255, 255, 255);
@@ -354,7 +354,7 @@ font-family: "Fugaz One", sans-serif;
         font-size: 30px;
     font-weight:bold
               
-}
+} */
 
 /* Hero Image */
 .header-img {
