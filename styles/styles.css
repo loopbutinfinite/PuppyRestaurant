@@ -143,6 +143,9 @@ font-family: "Fugaz One", sans-serif;
     font-family: Montauk-Regular !important;
     font-size: 30px !important;
 }
+/* .menuitem-div {
+    border-bottom: #980051 1px solid;
+} */
 .navbarTabsFormatted {
     color: #5F002B;
     font-family: "Fugaz One", sans-serif;
@@ -373,7 +376,30 @@ font-family: "Fugaz One", sans-serif;
         font-size: 30px;
     }
 }
+/* mobile M */
+@media (max-width: 375px){
+    .mobileMItemHeader{
 
+    }
+    .mobileMItemSubHeader{
+
+    }
+    .mobileMPrices{
+        font-size: 29px !important;
+    }
+}
+/* mobile S */
+@media (max-width: 320px){
+    .mobileSPrices{
+        font-size: 20px !important;
+    }
+    .mobileSItemHeader{
+        font-size: 25px !important;
+    }
+    .mobileSItemSubHeader{
+        font-size: 15px !important;
+    }
+}
 /* ------------------- */
 /* RESPONSIVE SECTION  */
 /* ------------------- */
