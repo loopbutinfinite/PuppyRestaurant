@@ -20,7 +20,7 @@ p, h2 {
 .navbar .nav-link {
   color: #5f002b !important; 
   font-weight: bold;
-  font-family: serif; 
+font-family: "Fugaz One", sans-serif;
   margin-left: 10px;
 }
 
@@ -39,6 +39,10 @@ p, h2 {
 }
 .backgroundForOurTeam {
     background-color: #FFFFFF;
+}
+.footer-text {
+  font-family: "Montauk-Regular", serif;
+  color: #5F002B;
 }
 .footerFontWithColor {
     color: #5F002B;
@@ -321,7 +325,14 @@ p, h2 {
   background-color: #ffffff; 
   padding: 1rem;
   text-align: center;
-  
+}
+.section-title {
+  font-family: "Fugaz One", sans-serif;
+  color: #5F002B;
+}
+.section-description {
+  font-family: "Montauk-Regular", serif;
+  color: #5F002B;
 }
 .photo-grid {
   display: grid;
