@@ -20,14 +20,15 @@ p, h2 {
 }
 
 /* Navbar */
+/* Navbar link adjustments */
 .navbar .nav-link {
-  color: #5f002b !important; 
-  font-weight: bold;
-font-family: "Fugaz One", sans-serif;
-  margin-left: 10px;
-  margin-left: 24px; 
-  font-size: 20px;
+    color: #5F002B !important;
+   
+    font-family: "Fugaz One", sans-serif;
+    font-size: 18px; /* increase font size */
+    margin-left: 40px; /* increase spacing between links */
 }
+
 .nav-link {
     color: #5F002B !important;
 }
