@@ -312,3 +312,19 @@ font-family: "Fugaz One", sans-serif;
   font-style: normal;
   color: #5F002B;
 }
+@media (max-width: 576px) {
+  footer .row {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+
+  footer .row .col-md-6 {
+    text-align: center !important;
+    margin-bottom: 10px;
+  }
+
+  footer img {
+    margin: 10px auto;
+    display: block;
+  }
+}
