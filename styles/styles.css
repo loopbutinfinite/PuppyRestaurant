@@ -335,6 +335,9 @@ font-family: "Fugaz One", sans-serif;
     .mobileLHeaderFont {
         font-size: 30px;
     }
+    .mobileLFooterFont{
+      font-size: 10px;
+    }
 }
 /* mobile M */
 @media (max-width: 375px){
