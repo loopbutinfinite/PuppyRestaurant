@@ -223,12 +223,6 @@ p, h2 {
 }
 /* mobile M */
 @media (max-width: 375px){
-    .mobileMItemHeader{
-
-    }
-    .mobileMItemSubHeader{
-
-    }
     .mobileMPrices{
         font-size: 27px !important;
     }
