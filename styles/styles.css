@@ -17,14 +17,13 @@ p, h2 {
   padding: 30px;
 }
 
+/* Navbar */
 .navbar .nav-link {
   color: #5f002b !important; 
   font-weight: bold;
 font-family: "Fugaz One", sans-serif;
   margin-left: 10px;
 }
-
-/* Navbar */
 .nav-link {
     color: #5F002B !important;
 }
@@ -159,66 +158,6 @@ font-family: "Fugaz One", sans-serif;
     margin: 0 auto;
 }
 
-.nav-link {
-    color: #5F002B !important;
-}
-.backgroundWhite {
-    background-color: white;
-}
-.aboutImg{
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    height: 100%;
-}
-.backgroundForOurTeam {
-    background-color: #FFFFFF;
-}
-.footerFontWithColor {
-    color: #5F002B;
-    font-size: 20px;
-    font-family: Montauk-Regular;
-}
-.fontWithColor {
-    color: #5F002B;
-    font-family: Montauk-Regular;
-}
-.cardHeaderAbout {
-    color: #5F002B !important;
-    font-family: "Fugaz One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-}
-.cardBodyAbout {
-    color: #5F002B;
-    font-family: Montauk-Regular;
-    font-size: 15px;
-}
-.storyBehindGrillCard {
-    background-color: #FFFFFF;
-    color: #5F002B;
-}
-.storyBehindHeaderFont {
-    color: #5F002B !important;
-    font-family: "Fugaz One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 45px;
-}
-.storyBehindBodyFont {
-    color: #5F002B;
-    font-family: Montauk-Regular;
-    font-size: 15px;
-}
-.navBarFont {
-    color: #5F002B !important;
-    font-family: "Fugaz One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px !important;
-}
-
 .pageBar{
      width: 1320px;            
         height: 60px;             
@@ -230,79 +169,7 @@ font-family: "Fugaz One", sans-serif;
         font-size: 30px;
     font-weight:bold       
 }
-.header-img {
-    width: 90%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-.nav-link {
-    color: #5F002B !important;
-}
-.backgroundWhite {
-    background-color: white;
-}
-.aboutImg{
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    height: 100%;
-}
-.backgroundForOurTeam {
-    background-color: #FFFFFF;
-}
-.footerFontWithColor {
-    color: #5F002B;
-    font-size: 20px;
-    font-family: Montauk-Regular;
-}
-.fontWithColor {
-    color: #5F002B;
-    font-family: Montauk-Regular;
-}
-.cardHeaderAbout {
-    color: #5F002B !important;
-    font-family: "Fugaz One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-}
-.cardBodyAbout {
-    color: #5F002B;
-    font-family: Montauk-Regular;
-    font-size: 15px;
-}
-.storyBehindGrillCard {
-    background-color: #FFFFFF;
-    color: #5F002B;
-}
-.storyBehindHeaderFont {
-    color: #5F002B !important;
-    font-family: "Fugaz One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 45px;
-}
-.storyBehindBodyFont {
-    color: #5F002B;
-    font-family: Montauk-Regular;
-    font-size: 15px;
-}
-.navBarFont {
-    color: #5F002B !important;
-    font-family: "Fugaz One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px !important;
-}
 
-
-.header-img {
-    width: 90%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
 .title-box {
   background-color: #ffffff; 
   padding: 1rem;
@@ -445,4 +312,3 @@ font-family: "Fugaz One", sans-serif;
   font-style: normal;
   color: #5F002B;
 }
-
