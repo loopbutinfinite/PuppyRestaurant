@@ -1,4 +1,12 @@
-//Team 1
+//Team 1 (Brandon Estrada, Gavin, Joseph Duarte)
+
+//Date Revised: November 14, 2025
+
+//Puppy Restaurant
+
+//Attempted to replicate a fully functioning and responsive website from a prototype using bootstrap's library of components and css classes. We also added custom css classes and media queries to overwrite bootstrap's presets so we can style the website to our liking.
+
+//Peer Review (Your Name) - 
 
 
 ## Jacob's Review
