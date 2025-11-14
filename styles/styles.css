@@ -276,6 +276,9 @@ p, h2 {
   footer img {
     height: 35px;
   }
+  .storyBehindGrillTabletBelow{
+    padding-left: 11px;
+  }
 }
 
 /* Mobile (≤576px) */
