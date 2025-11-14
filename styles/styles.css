@@ -64,6 +64,9 @@ font-family: "Fugaz One", sans-serif;
     font-family: Montauk-Regular;
     font-size: 15px;
 }
+.cardRoundedRemoved {
+  border-radius: 0 !important;
+}
 .storyBehindGrillCard {
     background-color: #FFFFFF;
     color: #5F002B;
@@ -78,7 +81,7 @@ font-family: "Fugaz One", sans-serif;
 .storyBehindBodyFont {
     color: #5F002B;
     font-family: Montauk-Regular;
-    font-size: 15px;
+    font-size: 13px;
 }
 .navBarFont {
     color: #5F002B !important;
@@ -219,7 +222,7 @@ font-family: "Fugaz One", sans-serif;
 
     }
     .mobileMPrices{
-        font-size: 29px !important;
+        font-size: 27px !important;
     }
 }
 /* mobile S */
