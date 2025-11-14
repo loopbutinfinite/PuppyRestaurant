@@ -2,7 +2,6 @@
     font-family: Montauk-Regular;
     src: url("../assets/fonts/Montauk-Regular.otf");
 }
-
 body {
   background-image: url("../assets/bgtexture.jpg");
   background-repeat: repeat;
@@ -10,7 +9,6 @@ body {
 p, h2 {
   color: #5f002b;
 }
-
 .text-content-box {
   background-color: #ffffff;
   color: #5f002b;
@@ -18,7 +16,6 @@ p, h2 {
   height: 265px;      
   overflow-y: auto;
 }
-
 /* Navbar */
 /* Navbar link adjustments */
 .navbar .nav-link {
@@ -28,7 +25,6 @@ p, h2 {
     font-size: 18px; /* increase font size */
     margin-left: 40px; /* increase spacing between links */
 }
-
 .nav-link {
     color: #5F002B !important;
 }
@@ -150,7 +146,6 @@ p, h2 {
     font-family: Montauk-Regular !important;
     font-size: 30px !important;
 }
-
 .navbarTabsFormatted {
     color: #5F002B;
     font-family: "Fugaz One", sans-serif;
@@ -167,7 +162,6 @@ p, h2 {
     display: block;
     margin: 0 auto;
 }
-
 .pageBar {
     width: 100%; /* fill the container width */
     height: 60px;
@@ -179,8 +173,6 @@ p, h2 {
     font-weight: bold;
     margin: 0; /* container handles spacing */
 }
-
-
 .title-box {
   background-color: #ffffff; 
   padding: 1rem;
@@ -207,7 +199,12 @@ p, h2 {
   margin: 0 2.3%;
   border-bottom: 1px solid #980051;
 }
-
+.fugaz-one-regular {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #5F002B;
+}
 @media (min-width: 768px) {
   .photo-grid {
     grid-template-columns: repeat(4, 1fr);
@@ -239,7 +236,6 @@ p, h2 {
         font-size: 15px !important;
     }
 }
-
 /* Tablet (≤768px) */
 @media (max-width: 768px) {
   .pageBar {
@@ -274,7 +270,6 @@ p, h2 {
     padding-left: 11px;
   }
 }
-
 /* Mobile (≤576px) */
 @media (max-width: 576px) {
   .pageBar {
@@ -313,16 +308,6 @@ p, h2 {
   footer p {
     font-size: 14px;
   }
-}
-
-
-
-
-.fugaz-one-regular {
-  font-family: "Fugaz One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #5F002B;
 }
 @media (max-width: 576px) {
   footer .row {
