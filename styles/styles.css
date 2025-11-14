@@ -186,10 +186,10 @@ font-family: "Fugaz One", sans-serif;
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem; 
+  gap: 1rem; 
 }
 .photo-item img {
-  border: 5px solid #ffffff; 
+  border: 8px solid #ffffff; 
 }
 .menuItemLine{
   width: 97%;
