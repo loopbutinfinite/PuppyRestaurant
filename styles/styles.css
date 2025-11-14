@@ -167,17 +167,18 @@ font-family: "Fugaz One", sans-serif;
     margin: 0 auto;
 }
 
-.pageBar{
-     width: 1320px;            
-        height: 60px;             
-        background-color: rgb(255, 255, 255);
-        margin: 50px auto;         
-        display: flex;             
-        justify-content: center;   
-        align-items: center;
-        font-size: 30px;
-    font-weight:bold       
+.pageBar {
+    width: 100%; /* fill the container width */
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0; /* container handles spacing */
 }
+
 
 .title-box {
   background-color: #ffffff; 
