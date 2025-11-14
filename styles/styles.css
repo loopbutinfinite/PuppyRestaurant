@@ -135,7 +135,7 @@ font-family: "Fugaz One", sans-serif;
     color: #5F002B !important;
     font-family: Montauk-Regular !important;
     font-size: 16px !important;
-    border-bottom:#980051 1px solid;
+    /* border-bottom:#980051 1px solid; */
 }
 .menuPrices {
     color: #5F002B !important;
@@ -191,7 +191,11 @@ font-family: "Fugaz One", sans-serif;
 .photo-item img {
   border: 5px solid #ffffff; 
 }
-
+.menuItemLine{
+  width: 97%;
+  margin: 0 2.3%;
+  border-bottom: 1px solid #980051;
+}
 
 @media (min-width: 768px) {
   .photo-grid {
@@ -203,7 +207,7 @@ font-family: "Fugaz One", sans-serif;
         font-size: 30px;
     }
     .mobileLFooterFont{
-      font-size: 10px;
+      font-size: 18px;
     }
 }
 /* mobile M */
