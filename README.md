@@ -6,7 +6,7 @@
 
 //Attempted to replicate a fully functioning and responsive website from a prototype using bootstrap's library of components and css classes. We also added custom css classes and media queries to overwrite bootstrap's presets so we can style the website to our liking.
 
-//Peer Review (Your Name) - 
+//Peer Review (Eliasaf) - i love how the site came out really "original" lol it looks great i like how somepages when you go to phone mode you get the option to scroll down to see more text everything l;ooks great and centered well done.
 
 ## Jacob's Review
 
